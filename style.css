@@ -1,0 +1,27 @@
+body{
+    background-color: #fbd139;
+}
+h1{
+    background-color: #FFFFFF;
+    color: rgb(0, 17, 251);
+}
+#modal_btn{
+    float: right;
+}
+canvas{
+    animation-name: flash;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+}
+p{
+    color: rgb(0, 17, 251);
+    font-size: 25px;
+}
+@keyframes flash{
+    from{box-shadow: 5px 5px 40px gray;}
+    to{box-shadow: 5px 5px 40px white;}
+}
